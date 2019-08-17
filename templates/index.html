@@ -10,13 +10,13 @@
   </head>
   <body>
     <div class="container">
-      <img src="../static/logo.png" alt="Lexus" class="logo" />
+      <i class="fas fa-newspaper"></i>
       {% if message %}
       <p class="message">{{ message | safe }}</p>
       {% endif %}
       <form action="/submit" method="POST">
         <div class="form-group">
-          <h3>Join our newsletter</h3>
+          <h1>Join our newsletter</h1>
           <input
             type="text"
             name="customer"
@@ -24,8 +24,8 @@
           />
         </div>
         <div class="form-group">
-          <h3>Email</h3>
-          <input type="email" name="email" placeholder="Enter your email" />
+
+          <input type="email" name="customer" placeholder="Enter your email" />
         </div>
 
 
